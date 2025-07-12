@@ -1,0 +1,15 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #689665;
+}
+
+header {
+    height: max(0.2rem, 55px);
+    width: 100%;
+    background-color: #1c321b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+}
