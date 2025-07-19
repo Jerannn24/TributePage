@@ -22,7 +22,6 @@ header {
 #main {
     display: flex;
     justify-content: center;
-
 }
 
 nav {
@@ -66,23 +65,38 @@ li>a {
 }
 
 img {
-    margin-top: 10px;
+    display: flex;
+    margin-top: auto;
     border-radius: 20px;
     width: 200px;
-    height: inherit;
+    height: auto;
     aspect-ratio: 4/5;
+    justify-self: center;
 }
 
 .box {
     width: max(300px, 30%);
+    margin: 10px auto;
+    display: flexbox;
+    justify-content: center;
+    border: 0.5em ridge #43437b;
 }
 
-.image {
-    display: flex;
-    width: 100%;
+.img-div {
+    display: block;
     justify-content: center;
+}
+
+#img-caption {
+    visibility: hidden;
 }
 
 form {
     width: 100%;
+}
+
+#tribute-link {
+    margin: 0;
+    justify-self: center;
+    color: linear-gradient(#43437b, #0d0d33, #232386);
 }
